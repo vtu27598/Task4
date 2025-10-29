@@ -1,0 +1,4 @@
+n = int(input("Enter the number of elements: "))
+a = map(int, input("Enter the numbers separated by space: ").split())
+t = tuple(a)
+print(hash(t))  # hash() returns a unique integer representing the tuple
